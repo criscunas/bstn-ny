@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css"
+</head>
+<body>
+
+    <div class="comments">
+        <div class="comments__container">
+            <form class="form" name="comment_form" id="comment_form" method="post">
+            
+                <div class="form__container">
+                  <label for="comment_name" class="form__label">Name</label>
+                  <input 
+                    class="form__input"
+                    type="text" 
+                    id="comment_name" 
+                    name="comment_name"
+                  />
+                </div>
+            
+                <div class="form__container">
+                  <label for="comment_text" class="form__label">Comment</label>    
+                  <input 
+                    class="form__input"
+                    type="text" 
+                    id="comment_text"
+                    name="comment_text" 
+                  />
+                </div>
+            
+                <div class="form__bottom">
+                  <button type="submit" class="form__button">Submit</button>
+                </div>
+              </form>
+        </div>
+    </div>
+
+    <div class="response">
+        <div class="response__container">
+
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

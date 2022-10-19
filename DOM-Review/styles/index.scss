@@ -1,0 +1,103 @@
+.comments {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 8px;
+
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 3rem;
+        
+        justify-content: center;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 2rem;
+        
+    }
+
+    &__label {
+        text-align: start;
+    }
+
+    &__input {
+        max-width: 200px;
+    }
+}
+
+.response {
+    @extend .comments;
+    margin-top: 3rem;
+
+    &__container {
+        padding: 1rem 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    &__box {
+        border: 1px solid black;
+        padding: 0 1rem;
+    }
+
+    &__text {
+        color: green;
+    }
+
+    &__name {
+        color: red;
+    }
+}
+
+
+.new {
+
+    &__title {
+        color: red;
+    }
+}
+
+
+.form {
+    border: 1px solid black;
+    max-width: 400px;
+    padding: 1rem;
+  
+    &__title {
+      font-size: 1rem;
+    }
+  
+    &__container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    &__label {
+      padding-bottom: 0.5rem;
+    }
+  
+    &__input {
+      
+      border-radius: 5px;
+      border: 1px solid gray;
+      height: 1.5rem;
+      padding: 0 0.5rem;
+    }
+  
+    &__bottom {
+      text-align: right;
+      margin: 1rem 0;
+    }
+  
+    &__button {
+      padding: 0.4rem 2.5rem;
+      background-color: green;
+      color: white;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
