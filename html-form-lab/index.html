@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="./styles.css" rel="stylesheet" />
+</head>
+<body>
+  <h1>Sign Up</h1>
+  <!-- Add Sign Up Form Here -->
+  <form class="form" name="user_form" id="user_form" method="post">
+    <p class="form__title">
+      Create Account
+    </p>
+
+    <div class="form__container">
+      <label for="user_name" class="form__label">Name</label>
+      <input 
+        class="form__input"
+        type="text" 
+        id="user_name" 
+        name="user_name"
+      />
+    </div>
+
+    <div class="form__container">
+      <label for="user_email" class="form__label">Email</label>    
+      <input 
+        class="form__input"
+        type="email" 
+        id="user_email"
+        name="user_email" 
+      />
+    </div>
+
+    <div class="form__container">
+      <label for="user_password" class="form__label">Password</label>    
+      <input 
+        class="form__input"
+        type="password" 
+        id="user_password" 
+        name="user_password"
+      />
+    </div>
+
+    <div class="form__container">
+      <label for="user_comfirm-password" class="form__label">Comfirm Password</label>    
+      <input 
+        class="form__input"
+        type="password" 
+        id="user_confirm-password" 
+        name="user_confirm_password" 
+      />
+    </div>
+
+    <div class="form__bottom">
+      <button type="submit" class="form__button">Submit</button>
+    </div>
+  </form>
+
+  <script src="./script.js"></script>
+</body>
+</html>
