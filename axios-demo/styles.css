@@ -1,0 +1,46 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  border: 1px solid gray;
+}
+.header__nav {
+  padding: 1rem;
+}
+.header__text {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.main {
+  padding: 4rem;
+}
+
+.users {
+  border: 1px solid gray;
+  width: 75%;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+.users__header {
+  font-size: 1.5rem;
+}
+.users__list {
+  padding: 1rem;
+}
+.users__box {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+.users__name {
+  color: red;
+}
+.users__gender {
+  color: green;
+}/*# sourceMappingURL=styles.css.map */

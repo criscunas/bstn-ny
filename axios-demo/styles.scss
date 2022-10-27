@@ -1,0 +1,58 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    border: 1px solid gray;
+
+    &__nav {
+        padding: 1rem;
+    }
+
+    &__text {
+        font-size: 1.2rem;
+        text-transform: capitalize;
+    }
+}
+
+.main {
+    padding: 4rem;
+}
+
+
+.users {
+    border: 1px solid gray;
+    width: 75%;
+    margin: 2rem auto;
+    padding: 1rem;
+
+    &__header {
+        font-size: 1.5rem;
+    }
+
+    &__list {
+        padding: 1rem;
+    }
+
+    &__box {
+       border: 1px solid black;
+       border-radius: 5px;
+       padding: 1rem;
+       margin: 1rem;
+    }
+
+    &__name {
+        color: red;
+    }
+
+    &__gender {
+        color: green;
+    }
+
+    &__hair {
+
+    }
+}
